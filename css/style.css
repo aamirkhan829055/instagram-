@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block !important;
+  text-decoration: none !important;
+}
+
+.solid-11 li a {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.solid-11 {
+  z-index: 999;
+  background-color: #ffff;
+  width: 16%;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  border-right: 1px solid #c9c6c6;
+}
+
+.solid-11 li {
+  transition: all 1s;
+}
+
+.solid-11 li:hover {
+  background-color: #f2f2f2 !important;
+  border-radius: 10px;
+}
+
+.ims-11 img {
+  width: 33px !important;
+  border-radius: 50%;
+}
+
+/* section 1*/
+
+.padding-33 {
+  padding-left: 128px;
+}
+
+.mt-5-3-3 {
+  margin-top: 100px;
+}
+
+.aamir-killer img {
+  width: 58px !important;
+  vertical-align: middle;
+  border-style: none;
+  margin: auto;
+  border-radius: 50%;
+  outline: 2px solid red;
+  outline-offset: 3px;
+}
+
+.aamir-killer p {
+  font-size: 500;
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.aamir-killer {
+  margin: 0px 5px;
+}
+
+/* col-4 */
+.rawnded img {
+  border-radius: 50%;
+  outline: 2px solid red;
+  outline-offset: 3px;
+}
+
+.sec-1 {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.text-s {
+  font-size: 13px;
+  color: black !important;
+}
+
+.text-s:hover {
+  background-color: #f2f2f2;
+}
+
+.Profile i {
+  position: relative;
+  top: 62%;
+  left: 434%;
+}
+
+.owl-nav {
+  display: block !important;
+}
+
+@media (max-width: 1200px) {
+  .Notifications {
+    display: none;
+  }
+
+  .padding-33 {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .Notifications {
+    display: none;
+  }
+
+  .padding-33 {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .Notifications {
+    display: none;
+  }
+
+  .padding-33 {
+    display: none;
+  }
+}
