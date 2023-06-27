@@ -108,6 +108,35 @@ a {
   display: block !important;
 }
 
+.owl-nav .owl-prev span {
+
+  position: absolute;
+  left: 13%;
+  top: 21%;
+  border-radius: 50%;
+  color: black;
+  font-size: 47px;
+  /* background: aqua; */
+  width: 20px;
+}
+
+.owl-nav button span {
+  position: absolute;
+  right: -4%;
+  top: 17%;
+  border-radius: 50%;
+  color: black;
+  font-size: 50px;
+}
+
+
+
+
+.owl-nav {
+  display: inline-block !important;
+
+}
+
 @media (max-width: 1200px) {
   .Notifications {
     display: none;
